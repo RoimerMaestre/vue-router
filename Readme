@@ -1,4 +1,4 @@
-![alt](./public/Captura%20de%20pantalla%202024-07-02%20190239.png)
+![alt](../assets/img/Captura%20de%20pantalla%202024-07-20%20155537.png)
 
 Proyecto Vue.js - Tienda de Productos
 Este proyecto es una aplicación web simple desarrollada con Vue.js que muestra una tienda de productos. Incluye un menú de navegación, vistas para productos y contacto, y utiliza lazy loading para cargar los componentes de manera eficiente.
