@@ -18,8 +18,8 @@
             </p>
           </div>
           <ul class="list-group">
-            <li class="list-group-item">{{precio}}</li>
-            <li class="list-group-item">{{cantidad}}</li>
+            <li class="list-group-item">{{ precio }}</li>
+            <li class="list-group-item">{{ cantidad }}</li>
           </ul>
           <div class="card-body">
             <a href="#" class="card-link button">Ver más</a>

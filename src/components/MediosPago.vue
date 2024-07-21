@@ -1,11 +1,12 @@
 <template lang="">
-  <section class="container-fluid d-none d-sm-none d-md-block py-5" id="Ahora-aceptamos">
+  <section
+    class="container-fluid d-none d-sm-none d-md-block py-5"
+    id="Ahora-aceptamos"
+  >
     <div class="container">
       <div class="row">
         <div class="col-5">
-          <h2 class="text-light fw-bold display-5">
-            Ahora aceptamos
-          </h2>
+          <h2 class="text-light fw-bold display-5">Ahora aceptamos</h2>
         </div>
         <div class="col-7">
           <div class="row text-light">

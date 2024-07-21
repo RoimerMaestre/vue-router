@@ -1,7 +1,12 @@
 <template>
   <section class="container" id="productos">
     <div class="row">
-      <Card v-bind:nombre="nombre" v-bind:descripcion="descripcion" v-bind:precio="precio" v-bind:cantidad="cantidad"/>
+      <Card
+        v-bind:nombre="nombre"
+        v-bind:descripcion="descripcion"
+        v-bind:precio="precio"
+        v-bind:cantidad="cantidad"
+      />
     </div>
   </section>
 </template>
