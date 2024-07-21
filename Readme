@@ -1,91 +1,42 @@
-![alt](../assets/img/Captura%20de%20pantalla%202024-07-20%20155537.png)
+![alt](./src/assets/img/Captura%20de%20pantalla%202024-07-20%20155537.png)
 
-Proyecto Vue.js - Tienda de Productos
+# Proyecto Vue.js - Tienda de Productos
 Este proyecto es una aplicación web simple desarrollada con Vue.js que muestra una tienda de productos. Incluye un menú de navegación, vistas para productos y contacto, y utiliza lazy loading para cargar los componentes de manera eficiente.
 
-Características
-Navegación entre páginas utilizando <router-link>.
-Vistas para productos y contacto.
-Enlaces de redirección al inicio desde las vistas de Productos y Contacto.
-Carga controlada de componentes (lazy loading).
-Uso de props para pasar datos a los componentes.
+## Características
+<ul>
+<li>Navegación entre páginas utilizando <router-link>.</li>
+<li>Vistas para productos y contacto.</li>
+<li>
+Enlaces de redirección al inicio desde las vistas de Productos y Contacto.</li>
+<li>Carga controlada de componentes (lazy loading).</li>
+<li>Uso de props para pasar datos a los componentes.</li>
+</ul>
 
-Claro, aquí tienes un ejemplo de un README sencillo para tu proyecto:
 
-Proyecto Vue.js - Tienda de Productos
-Este proyecto es una aplicación web simple desarrollada con Vue.js que muestra una tienda de productos. Incluye un menú de navegación, vistas para productos y contacto, y utiliza lazy loading para cargar los componentes de manera eficiente.
 
-Características
-Navegación entre páginas utilizando <router-link>.
-Vistas para productos y contacto.
-Enlaces de redirección al inicio desde las vistas de Productos y Contacto.
-Carga controlada de componentes (lazy loading).
-Uso de props para pasar datos a los componentes.
-Estructura del Proyecto
-bash
-Copiar código
-/src
-  /assets
-    logo.png
-    img/colaciones.jpg
-  /components
-    Card.vue
-    Navbar.vue
-    Footer.vue
-    MediosPago.vue
-  /views
-    HomeView.vue
-    ProductoView.vue
-    ContactoView.vue
-  App.vue
-  main.js
-  router/index.js
-Instalación
-Clona el repositorio:
-
-bash
-Copiar código
-git clone https://github.com/RoimerMaestre/tienda-vue.git
-Navega al directorio del proyecto:
-
-bash
-Copiar código
-cd tienda-vue
-Instala las dependencias:
-
-bash
-Copiar código
-npm install
-Uso
-Inicia el servidor de desarrollo:
-
-bash
-Copiar código
-npm run serve
-Abre tu navegador y visita http://localhost:8080.
-
-Componentes
-Navbar
+## Componentes
+### Navbar
 El componente de navegación que permite la transición entre las diferentes vistas.
 
-Card
+### Card
 Componente que muestra la información de un producto utilizando props.
 
-Footer
+### Footer
 Pie de página de la aplicación.
 
-MediosPago
+### MediosPago
 Componente que muestra los medios de pago disponibles.
 
-Vistas
-HomeView
+## Vistas
+### HomeView
 La vista principal que da la bienvenida a los usuarios y ofrece enlaces para ver productos y contactar.
 
-ProductoView
+### ProductoView
 Vista que muestra información detallada de un producto. Recibe props para mostrar el nombre, descripción, precio y cantidad del producto.
 
-ContactoView
+### ContactoView
 Vista que contiene un formulario de contacto y enlaces a redes sociales, así como un enlace para volver al inicio.
 
-Rutas
+## Rutas
 Las rutas están definidas en router/index.js y utilizan lazy loading para cargar los componentes de manera eficiente.
